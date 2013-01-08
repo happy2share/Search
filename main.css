@@ -1,0 +1,15 @@
+.popup-class{
+	left:0px;
+	border:10px solid gray;
+	height:400px;
+	width:250px;
+	overflow:scroll;
+}
+.list-div{
+	left:0px;
+	width:230px;
+	height:380px;
+	margin:auto;
+	overflow:scroll;
+padding:10px;
+}

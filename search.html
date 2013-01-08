@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+        <meta charset="utf-8"/>
+            <link rel="stylesheet" href="jquery.mobile-1.2.0.css" />
+	    <link rel="stylesheet" href="main.css" />
+            <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+            <script src="jquery.mobile-1.2.0.js"></script> 
+            <script src="required.js"></script>
+    </head>
+    <body>
+        <div  data-role="page" class="page-background">
+                            <div data-role = "content">
+                   
+                    <input type="text"  id="target" onfocus="getList()" readonly/>
+                    <div data-role="popup" id="model-name" class="ui-content" data-position-to="#target" data-transition="fade" class="popup-class">
+                          <div class="list-div">
+                            <ul data-role="listview" data-filter="true"  style="padding:10px;">
+                                <li><a onclick="populateValue()">Acura</a></li>
+                                <li><a onclick="populateValue()">Audi</a></li>
+                                <li><a onclick="populateValue()">BMW</a></li>
+                                <li><a onclick="populateValue()">Cadillac</a></li>
+                                <li><a onclick="populateValue()">Chrysler</a></li>
+                                <li><a onclick="populateValue()">Dodge</a></li>
+                                <li><a onclick="populateValue()">Ferrari</a></li>
+                                <li><a onclick="populateValue()">Ford</a></li>
+                                <li><a onclick="populateValue()">GMC</a></li>
+                                <li><a onclick="populateValue()">Honda</a></li>
+                                <li><a onclick="populateValue()">Hyundai</a></li>
+                                <li><a onclick="populateValue()">Infiniti</a></li>
+                                <li><a onclick="populateValue()">Jeep</a></li>
+                                <li><a onclick="populateValue()">Kia</a></li>
+                                <li><a onclick="populateValue()">Lexus</a></li>
+                                <li><a onclick="populateValue()">Mini</a></li>
+                                <li><a onclick="populateValue()">Nissan</a></li>
+                                <li><a onclick="populateValue()">Porsche</a></li>
+                                <li><a onclick="populateValue()">Subaru</a></li>
+                                <li><a onclick="populateValue()">Toyota</a></li>
+                                <li><a onclick="populateValue()">Volkswagon</a></li>
+                                <li><a onclick="populateValue()">Volvo</a></li>
+                            </ul>
+                        </div>
+                    </div>     
+            </div>
+        </div>
+       
+
+    </body>
+</html>
